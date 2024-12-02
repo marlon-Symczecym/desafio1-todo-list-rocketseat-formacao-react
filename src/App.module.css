@@ -1,5 +1,6 @@
 .container {
   width: 100%;
+  padding: 0 1rem;
 }
 
 .container form {
@@ -50,4 +51,19 @@
 
 .container>form button[type='submit']:hover {
   background: var(--blue);
+}
+
+@media (max-width: 768px) {
+
+  .container form {
+    flex-direction: column;
+  }
+
+  .container>form input {
+    width: 100%;
+  }
+
+  .container>form button[type='submit'] {
+    width: 100%;
+  }
 }
