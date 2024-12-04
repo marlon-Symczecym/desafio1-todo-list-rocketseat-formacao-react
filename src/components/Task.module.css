@@ -1,4 +1,5 @@
-.task {
+.task,
+.taskConcluded {
   width: 100%;
   padding: 1.6rem;
   background: var(--gray--500);
@@ -7,7 +8,7 @@
 
   display: grid;
   grid-template-columns: 2.4rem 1fr 2.4rem;
-  align-items: flex-start;
+  align-items: center;
 
   margin-bottom: 1.6rem;
 }
@@ -19,7 +20,12 @@
   cursor: pointer;
 }
 
+.task button:hover {
+  color: var(--blue--dark);
+}
+
 .task article {
+  word-break: break-all;
   padding: 0 1.2rem;
   color: var(--gray--100);
   font-size: 1.4rem;
@@ -28,4 +34,28 @@
 
 .trashIcon {
   cursor: pointer;
+}
+
+.trashIcon:hover {
+  color: var(--danger);
+}
+
+.taskConcluded button {
+  background-color: transparent;
+  color: var(--purple-dark);
+
+  cursor: pointer;
+}
+
+.taskConcluded button:hover {
+  color: var(--purple);
+}
+
+.taskConcluded article {
+  word-break: break-all;
+  padding: 0 1.2rem;
+  color: var(--gray--300);
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-decoration: line-through;
 }

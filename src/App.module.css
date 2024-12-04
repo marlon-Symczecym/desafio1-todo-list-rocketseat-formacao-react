@@ -51,8 +51,15 @@
   gap: 0.8rem;
 }
 
-.container>form button[type='submit']:hover {
+.container>form button[type='submit']:enabled:hover {
   background: var(--blue);
+  filter: opacity(1);
+}
+
+.container>form button[type='submit']:disabled {
+  filter: opacity(0.7);
+  cursor: not-allowed;
+  ;
 }
 
 @media (max-width: 768px) {
@@ -72,6 +79,8 @@
   .container>form button[type='submit'] {
     width: 100%;
   }
+
+
 }
 
 .containerTasks {
