@@ -46,7 +46,7 @@ Aqui está o styleguide passado pela equipe da Rocketseat para facilitar o desen
 ### ToDO Vazio - Mobile
 <img src="./images-readme/todo-empty-mobile.png" style="width: 50%; height: auto;">
 
-<span>A versão responsiva foi criada de forma que conseguisse comprotar todo o layout sem precisar mudar muita coisa na tela, mantendo a identidade da versão desktop.</span>
+<span>A versão responsiva foi criada de forma que conseguisse comportar todo o layout sem precisar mudar muita coisa na tela, mantendo a identidade da versão desktop.</span>
 
 ### ToDO Cheia - Desktop
 <img src="./images-readme/todo-desktop.jpg" style="width: 100%; height: auto;">
